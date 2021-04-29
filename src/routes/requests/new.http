@@ -1,0 +1,11 @@
+POST http://localhost/api/projects HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Project #1",
+  "desc": "This is a default description",
+  "url": "https://jordanbarbosa.com",
+  "github": "https://github.com",
+  "technology": ["javascript"],
+  "isHeroku": false
+}
